@@ -1,0 +1,33 @@
+import random
+alumnos = [
+    "jofre [itb] aleman serra",
+    "daniel [itb] arco guasch",
+    "izan [itb] arnaiz gallego",
+    "adam [itb] benahmed belachi",
+    "áxel [itb] benítez parra",
+    "iker [itb] blazquez valverde",
+    "oscar [itb] bravo lopez",
+    "franz [itb] camacho panozo",
+    "cristhian [itb] contreras pareja",
+    "roger [itb] domingo meléndez",
+    "erik [itb] doral crespo",
+    "axel [itb] garcía hernández",
+    "àlex [itb] jiménez navarro",
+    "josue [itb] loor hidalgo",
+    "ruddy [itb] mamani quinyones",
+    "david [itb] martinez.parra",
+    "jonathan [itb] merce garcia",
+    "laura [itb] olivera muñoz",
+    "javier [itb] ortega cerrato",
+    "marti [itb] pons soms",
+    "david [itb] quintas",
+    "albert [itb] remacha gomez",
+    "jaume [itb] sampera poch",
+    "fátima [itb] saoudi tadlaoui",
+    "alex [itb] valdemoro sosa",
+    "david [itb] vargas mercado",
+    "omar [itb] vargas mercado",
+    "josé [itb] villalba gómez",
+    "ion [itb] zarija"
+]
+print(random.choice(alumnos))
