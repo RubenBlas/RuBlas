@@ -1,0 +1,89 @@
+Programación o desarrollo Embedded (Capa 1)
+Programación o desarrollo en Ciberseguridad (Capa 2)
+Desarrollo o programación web (Capa 3)
+Programación o desarrollo móvil (Capa 4)
+Programación o desarrollo de videojuegos (Capa 5)
+Programación en Realidad Virtual o Aumentada (Capa 6)
+Programación o desarrollo de Aprendizaje Automático (Capa 7)
+
+
+
+
+Lenguajes importantes
+JSON
+
+
+
+Lenguajes por capas
+
+
+
+Capa de Aplicación (Modelo TCP/IP) / Capas 5, 6 y 7 (Modelo OSI):
+Funciones:
+
+La Capa de Aplicación en el modelo TCP/IP es responsable de proporcionar servicios de red a las aplicaciones del usuario final. Esto incluye la comunicación entre programas y la interfaz con los servicios de red.
+Sus funciones específicas incluyen el intercambio de datos, la presentación de información y la interacción entre el usuario y las aplicaciones de red.
+Protocolos Principales:
+
+En esta capa se encuentran protocolos como HTTP (para la transferencia de páginas web), FTP (para la transferencia de archivos), SMTP (para el envío de correo electrónico), DNS (para la resolución de nombres de dominio), entre otros.
+Modelo OSI - Funciones de las Capas:
+
+Capa de Sesión (Capa 5):
+Función: Establece, administra y finaliza sesiones entre aplicaciones en diferentes dispositivos. Maneja el diálogo y la sincronización.
+Ejemplos: RPC (Remote Procedure Call), NetBIOS.
+Capa de Presentación (Capa 6):
+Función: Se encarga de la representación de datos, traduciendo entre diferentes formatos y codificaciones para que las aplicaciones puedan interpretar la información correctamente.
+Ejemplos: Codificación/decodificación de datos (ej. ASCII, JPEG).
+Capa de Aplicación (Capa 7):
+Función: Proporciona servicios de red directamente a las aplicaciones del usuario final. Interactúa con las aplicaciones para proporcionar servicios de red.
+Ejemplos: HTTP (Hypertext Transfer Protocol), FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol), DNS (Domain Name System).
+Capa de Transporte (Modelo TCP/IP) / Capa 4 (Modelo OSI):
+Funciones:
+
+La Capa de Transporte en el modelo TCP/IP se encarga de proporcionar servicios de transporte de extremo a extremo. Esto incluye la segmentación de datos, control de flujo, control de errores y reensamblaje de paquetes.
+Protocolos Principales:
+
+Los protocolos principales en esta capa son TCP (para una comunicación confiable y orientada a la conexión) y UDP (para una comunicación no confiable y sin conexión).
+Modelo OSI - Funciones de las Capas:
+
+Capa de Transporte (Capa 4):
+Función: Proporciona servicios de transporte de extremo a extremo, asegurando la entrega de datos de manera confiable y eficiente.
+Subfunciones:
+Segmentación y reensamblaje de datos.
+Control de flujo y control de errores.
+Ejemplos: TCP (Transmission Control Protocol), UDP (User Datagram Protocol).
+
+Capa de Internet (Modelo TCP/IP) / Capa 3 (Modelo OSI):
+Funciones:
+
+La Capa de Internet en el modelo TCP/IP se encarga del enrutamiento de paquetes IP a través de la red. Esto implica la determinación de la mejor ruta para enviar los datos de origen a destino.
+Protocolos Principales:
+
+El protocolo principal en esta capa es el IP (Internet Protocol), que es responsable de la entrega de paquetes de datos entre dispositivos en la red.
+Modelo OSI - Funciones de las Capas:
+
+Capa de Red (Capa 3):
+Función: Encargada del enrutamiento de datos a través de una red interconectada, determinando la mejor ruta para la entrega de paquetes.
+Subfunciones:
+Encaminamiento (routing).
+Reenvío (forwarding).
+Ejemplos: IP (Internet Protocol), ICMP (Internet Control Message Protocol).
+
+Funciones:
+
+La Capa de Interfaz de Red en el modelo TCP/IP agrupa las funciones de las capas física (Capa 1) y de enlace de datos (Capa 2) del Modelo OSI. Se encarga de la transmisión física de datos y el acceso a la red local.
+Protocolos Principales:
+
+Los protocolos principales en esta capa incluyen ARP (Address Resolution Protocol), que mapea direcciones IP a direcciones MAC en una red local, y Ethernet, que proporciona conectividad de red a nivel local.
+
+Modelo OSI - Funciones de las Capas:
+
+Capa Física (Capa 1):
+Función: Se encarga de la transmisión física de bits a través de un medio de comunicación, definiendo las características eléctricas, mecánicas y funcionales de la interfaz física.
+Ejemplos: Especificaciones de cables, conectores, voltajes, etc.
+Capa de Enlace de Datos (Capa 2):
+Función: Proporciona la transferencia de datos confiable entre dispositivos adyacentes en la misma red local.
+Subfunciones:
+Control de acceso al medio (MAC - Media Access Control).
+Detección y corrección de errores.
+Ejemplos: Ethernet, Wi-Fi (802.11), PPP (Point-to-Point Protocol).
