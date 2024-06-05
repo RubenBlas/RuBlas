@@ -1,0 +1,122 @@
+Concatenar strings: se puede unir dos o más strings utilizando el operador "+". Por ejemplo:
+a = "Hola"
+b = "mundo"
+c = a + " " + b
+print(c) # salida: Hola mundo
+
+Convertir a mayúsculas o minúsculas: para cambiar la capitalización de un string,
+ se pueden utilizar los métodos upper() y lower(), respectivamente. Por ejemplo:
+a = "Hola"
+b = a.upper()
+print(b) # salida: HOLA
+
+c = "MUNDO"
+d = c.lower()
+print(d) # salida: mundo
+
+Reemplazar una subcadena: para reemplazar una subcadena dentro de un string,
+ se puede utilizar el método replace(). Por ejemplo:
+a = "Hola mundo"
+b = a.replace("mundo", "Python")
+print(b) # salida: Hola Python
+
+Eliminar espacios en blanco: para eliminar los espacios en blanco al principio y al final de un string,
+ se puede utilizar el método strip(). Por ejemplo:
+a = "   Hola mundo   "
+b = a.strip()
+print(b) # salida: Hola mundo
+
+Dividir un string en una lista: para dividir un string en una lista de subcadenas,
+ se puede utilizar el método split(). Por ejemplo:
+a = "Hola,mundo,cruel"
+b = a.split(",")
+print(b) # salida: ['Hola', 'mundo', 'cruel']
+
+Buscar una subcadena: para buscar una subcadena dentro de un string, se puede utilizar el método find(). 
+Este método devuelve el índice de la primera ocurrencia de la subcadena dentro del string,
+ o -1 si no se encuentra. Por ejemplo:
+a = "Hola mundo"
+b = a.find("mundo")
+print(b) # salida: 5
+
+Contar ocurrencias de una subcadena: para contar el número de ocurrencias de una subcadena dentro de un string,
+ se puede utilizar el método count(). Por ejemplo:
+a = "Hola mundo, hola Python, hola todos"
+b = a.count("hola")
+print(b) # salida: 3
+
+Verificar si un string comienza o termina con una subcadena: para verificar si un string comienza o termina con una subcadena, 
+se pueden utilizar los métodos startswith() y endswith(), respectivamente. 
+Estos métodos devuelven True si el string comienza o termina con la subcadena,
+ y False en caso contrario. Por ejemplo:
+a = "Hola mundo"
+b = a.startswith("Hola")
+print(b) # salida: True
+
+c = "Hola mundo"
+d = c.endswith("mundo")
+print(d) # salida: True
+
+Formatear un string: para formatear un string con valores variables, se puede utilizar el método format(). 
+Este método permite insertar valores variables dentro de un string utilizando marcadores de posición. Por ejemplo:
+a = "Hola {}"
+b = a.format("mundo")
+print(b) # salida: Hola mundo
+
+c = "El resultado es {}"
+d = c.format(42)
+print(d) # salida: El resultado es 42
+
+Extraer una subcadena: para extraer una subcadena de un string, 
+se pueden utilizar los índices de inicio y fin de la subcadena. Por ejemplo:
+a = "Hola mundo"
+b = a[0:4]
+print(b) # salida: Hola
+
+c = "Hola mundo"
+d = c[5:]
+print(d) # salida: mundo
+
+Verificar si un string contiene una subcadena: para verificar si un string contiene una subcadena, 
+se puede utilizar el operador in. Este operador devuelve True si la subcadena se encuentra dentro del string,
+ y False en caso contrario. Por ejemplo:
+a = "Hola mundo"
+b = "mundo" in a
+print(b) # salida: True
+
+c = "Hola mundo"
+d = "Python" in c
+print(d) # salida: False
+
+Convertir la primera letra de cada palabra en mayúscula: para convertir la primera letra de cada palabra en mayúscula,
+ se puede utilizar el método title(). Por ejemplo:
+a = "hola mundo"
+b = a.title()
+print(b) # salida: Hola Mundo
+
+Centrar un string en una línea: para centrar un string en una línea, se puede utilizar el método center(). 
+Este método devuelve una nueva cadena centrada en una línea de la longitud especificada, 
+rellenando los espacios restantes con caracteres específicos (por defecto, espacios en blanco). Por ejemplo:
+a = "Hola mundo"
+b = a.center(20, "-")
+print(b) # salida: ---Hola mundo----
+
+Rellenar un string con caracteres a la izquierda o a la derecha: para rellenar un string con caracteres a la izquierda o a la derecha,
+ se pueden utilizar los métodos ljust() y rjust(), respectivamente. 
+Estos métodos devuelven una nueva cadena rellena con caracteres específicos (por defecto, espacios en blanco) hasta la longitud especificada. Por ejemplo:
+a = "Hola"
+b = a.ljust(10, "-")
+print(b) # salida: Hola------
+
+c = "Hola"
+d = c.rjust(10, "-")
+print(d) # salida: ------Hola
+
+Eliminar una subcadena utilizando expresiones regulares: para eliminar una subcadena que sigue un patrón específico utilizando expresiones regulares,
+ se puede utilizar el módulo re de Python. Este módulo proporciona la función sub(),
+ que permite reemplazar subcadenas que coinciden con un patrón específico. Por ejemplo:
+import re
+
+a = "El número de teléfono es 123-456-7890"
+b = re.sub(r"\d{3}-\d{3}-\d{4}", "", a)
+print(b) # salida: El número de teléfono es
